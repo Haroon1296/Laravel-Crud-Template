@@ -1,0 +1,20 @@
+
+
+
+
+
+Route::get('crud', 'CrudController@create');
+Route::resource('crud', 'CrudController');
+
+
+
+
+
+
+
+
+
+
+composer require laravelcollective/html
+
+
